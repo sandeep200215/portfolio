@@ -1,0 +1,64 @@
+
+div
+{
+    margin-left: 40px;  
+}
+div ul {
+    margin-left: 40px;
+
+}
+div ul li a{
+    color: white;
+    font-size: 21px;
+    /*justify-content: space-between;*/
+     padding:16px ;
+     font-family: Arial sans-serif;
+     font-weight: 200;
+     
+    
+   
+}
+.navbar-toggler-icon
+{
+    color: white;
+
+
+}
+div ul li a:hover
+{
+    color:rgb(165, 196, 194);
+}
+
+div .dropdown-menu li a
+{ 
+   
+    color:rgb(44, 18, 131);
+   
+}
+div .dropdown-menu li a:hover
+{ 
+   
+    background-color:darkslateblue ;
+    width: 100%;;
+    
+   
+    font-style:  bg-image hover-zoom;
+    
+}
+div .dropdown-menu .dropdown-menu
+img{
+    border-radius: 10px;;
+}
+@media only screen and (max-width: 600px)
+{
+   div ul 
+    {
+       margin-left:-11%;
+    }
+    div .dropdown-menu li 
+    {
+       
+        margin-left: 5%;
+    }
+  
+}

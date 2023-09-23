@@ -1,0 +1,56 @@
+div
+{
+  
+    height:8vh;
+   background-color: rgb(2, 2, 10);
+    
+  
+    max-width:100%;
+    display:flex;
+   
+    padding-left: 32%;;
+
+}
+div ul
+{
+    font-size: 30px;
+    color: rgb(168, 145, 171);
+
+   
+  
+}
+div ul li{
+    
+    display: inline;
+    text-decoration: none;
+    text-indent: 15px;
+    align-items: center;
+    word-spacing: 10px;
+ 
+   
+}
+div ul li :hover
+{
+   
+    color:blueviolet;
+}
+.contact
+{
+    padding-left:40%;
+    color:rgb(233, 232, 237);
+}
+@media only screen and (max-width: 600px) 
+{ 
+.container
+{
+    height:8vh;
+    width:100%;
+   padding: 10px;
+   padding-left: 15px;
+}
+.contact
+{
+    padding-top: 10px;
+    padding-left:-20px
+}
+}

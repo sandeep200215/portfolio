@@ -1,0 +1,24 @@
+.skills
+{
+  background-color: rgb(121, 160, 160);
+  height: 100vh;
+
+ padding-top: 12%;;
+ padding-left: 10%;;
+
+ padding-right: 10%;;
+
+}
+
+@media only screen and (max-width: 600px)
+{
+     .skills
+    {
+      margin-top: 10%;
+      margin-left: -5%;
+     
+    }
+}
+
+
+

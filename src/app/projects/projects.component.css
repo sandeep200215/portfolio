@@ -1,0 +1,54 @@
+.projects
+{  padding-top:5%;
+     height:100vh;
+    background-color:white;
+  
+}
+.col1
+{
+   border-radius: 10px;
+    background-color:rgb(110, 110, 150);
+    height:38vh;
+    width: 33%;
+   margin-top: 10px;;
+   margin-bottom: 20px;
+   
+    box-shadow:0 0 10px 0 rgba(107, 82, 82, 0.3);
+}
+.col2
+{  
+    border-radius: 10px;;
+  
+    background-color:rgb(38, 38, 90);
+    height:38vh;
+    width: 33%;
+    margin-top:10px;
+   margin-left: 5px;
+    box-shadow:0 0 10px 0 rgba(107, 82, 82, 0.3);
+}
+.container
+{
+  
+ 
+}
+.col1:hover{
+    color:blue;
+}
+.row .row-cols-2
+{
+  font-size: 20px;;
+}
+.btn :hover
+{
+  color:rgb(45, 30, 126);
+}
+@media only screen and (max-width: 600px)
+{
+    .col1
+    {
+        width: 50%;;
+    }
+    .col2{
+        width: 50%;;
+    }
+}
